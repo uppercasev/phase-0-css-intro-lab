@@ -47,7 +47,7 @@ In `index.html`, provide a `<link>` tag which correctly sources the CSS file
 located in this directory. The `<link>` tag will link to our file with an
 `href` attribute, like so:
 
-```HTML
+```
 <link rel="stylesheet" href="relative path to CSS file">
 ```
 
@@ -65,7 +65,7 @@ write `href="./style.css"` we're saying: "From the directory in which I, the
 `index.html` file live, look for a file called `style.css` and use it. This
 pattern will help you and other developers remove any possible confusion.
 
-```HTML
+```
 <link rel="stylesheet" href="relative path to CSS file">
 ```
 
